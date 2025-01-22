@@ -18,7 +18,7 @@ This is a simple API example written using Node.js and a MangoDB database. You c
 
 #### GET all items
 You will receive the response in JSON format.
-```http
+```bash
   GET: localhost:8080/users/
   GET: localhost:8080/cars/
   GET: localhost:8080/rents/
@@ -26,7 +26,7 @@ You will receive the response in JSON format.
 
 #### POST item
 
-```http
+```bash
   POST: localhost:8080/users/add
   POST: localhost:8080/cars/add 
   POST: localhost:8080/rents/add
@@ -60,7 +60,7 @@ Fill your request body with JSON like:
 
 #### PUT item
 
-```http
+```bash
   PUT: localhost:8080/cars/edit
 ```
 Send your request like this, and fill your request body with your new data
@@ -71,7 +71,7 @@ localhost:8080/cars/edit?id={$your_id}
 
 #### DELETE item
 
-```http
+```bash
   DELETE: localhost:8080/users/remove?id={$your_id}
   DELETE: localhost:8080/cars/remove?id={$your_id}
   DELETE: localhost:8080/rents/remove?id={$your_id}
